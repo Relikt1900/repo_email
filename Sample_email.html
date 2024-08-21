@@ -15,20 +15,20 @@
 
 {% comment %} Блок с баннером 1 {% endcomment %}
 {% assign showBanner1_1 = true %}{% comment %} Показывать баннер? true — показывать, false — не показывать {% endcomment %}
-{% assign bannerImgUrl1_1 = 'https://gallery.retailrocket.net/63970879474695b85ab9a763/%d0%9f%d1%80%d0%be%d0%bc%d0%be%20%d0%b8%d1%8e%d0%bd%d1%8c%202024.jpg' %}{% comment %} Ссылка на картинку баннера {% endcomment %}
+{% assign bannerImgUrl1_1 = 'https://gallery.retailrocket.net/63970879474695b85ab9a763/aug-sep-2024-1000%d1%85525.jpg' %}{% comment %} Ссылка на картинку баннера {% endcomment %}
 {% assign bannerLink1_1 = 'https://ampm-store.ru/federal-promo/' %}{% comment %} Ссылка с баннера {% endcomment %}
 {% assign bannerAlt1_1 = 'Сантехника AM.PM со скидками до 50% на выделенный ассортимент!' %}{% comment %} Текст вместо баннера, который увидит подписчик, если у него не отображаются картинки {% endcomment %}
 {% comment %} Конец Блок с баннером 1 {% endcomment %}
 
 {% comment %} Блок с текстом 1 {% endcomment %}
 {% assign showText1_1 = true %}{% comment %} Показывать текст? true — показывать, false — не показывать {% endcomment %}
-{% assign textTitle1_1 = 'Новые скидки в июле!' %}{% comment %} Заголовок текстового блока {% endcomment %}
-{% assign textText1_1 = 'Специальные скидки в июле! Мы увеличили количество товаров со скидками, не пропустите.' %}{% comment %} Сам текст {% endcomment %}
+{% assign textTitle1_1 = 'Специальная скидка 10% <br>от официального магазина AM.PM <br>с 26 до 30 августа 2024 года' %}{% comment %} Заголовок текстового блока {% endcomment %}
+{% assign textText1_1 = 'на заказ от 30 000 рублей<br><br> Промокод: <b>August_26_30</b><br>Промокод суммируется со другими скидками.' %}{% comment %} Сам текст {% endcomment %}
 {% comment %} Конец Блок с текстом 1 {% endcomment %}
 
 {% comment %} Блок товарных рекомендаций два в ряд 1 {% endcomment %}
 {% assign showRecoX2_1_1 = true %}{% comment %} Показывать рекомендации? true — показывать, false — не показывать {% endcomment %}
-{% assign recoIdsX2_1_1 = '2149, 7695, 8042, 7702 ' %}{% comment %} Список id товаров {% endcomment %}
+{% assign recoIdsX2_1_1 = '4238, 4043, 8164, 4522 ' %}{% comment %} Список id товаров {% endcomment %}
 {% assign recoAlgoritmX2_1_1 = Products.recoIdsX2_1_1 %}{% comment %} Алгоритм StoreRecoms.Popular. Если нужно вручную выводить товары, то ставим Products.recoIdsX2_1_1 {% endcomment %}
 {% assign recoLimitX2_1_1 = 4 %}{% comment %} Лимит в выдаче рекомендаций {% endcomment %}
 {% assign recoButtonTextX2_1_1 = 'Смотреть еще' %}{% comment %} Текст на СТА {% endcomment %}
@@ -38,14 +38,16 @@
 
 {% comment %} Блок с текстом 2 {% endcomment %}
 {% assign showText2_1 = true %}{% comment %} Показывать текст? true — показывать, false — не показывать {% endcomment %}
-{% assign textTitle2_1 = '' %}{% comment %} Заголовок текстового блока {% endcomment %}
-{% assign textText2_1 = 'А еще у нас есть - <br>БЕСПЛАТНЫЕ - УСТАНОВКА И ДОСТАВКА! <br> Узнайте все о дополнительных услугах в официальном магазине  AM.PM' %}{% comment %} Сам текст {% endcomment %}
+{% assign textTitle2_1 = 'Бесплатная фирменная установка от AM.PM!' %}{% comment %} Заголовок текстового блока {% endcomment %}
+{% assign textText2_1 = 'Акция по бесплатной фирменной установке действует в: Москве, Санкт-Петербурге, Екатеринбурге и Краснодаре.<br> Посмотрите фото реальных установок!' %}{% comment %} Сам текст {% endcomment %}
+{% assign textButtonLink2_1 = 'https://ampm-store.ru/information/installation/' %}{% comment %} Ссылка с СТА {% endcomment %}
+{% assign textButtonText2_1 = 'Фирменная установка' %}{% comment %} Текст на СТА {% endcomment %}
 {% comment %} Конец Блок с текстом 2 {% endcomment %}
 
 
 {% comment %} Блок товарных рекомендаций два в ряд 2 {% endcomment %}
 {% assign showRecoX2_2_1 = true %}{% comment %} Показывать рекомендации? true — показывать, false — не показывать {% endcomment %}
-{% assign recoIdsX2_2_1 = '3963, 4531, 16562, 2517' %}{% comment %} Список id товаров {% endcomment %}
+{% assign recoIdsX2_2_1 = '16559, 2259, 4269, 2261' %}{% comment %} Список id товаров {% endcomment %}
 {% assign recoAlgoritmX2_2_1 = Products.recoIdsX2_2_1 %}{% comment %} Products.recoIdsX2_2_1  Алгоритм. Если нужно автоматически выводить товары, то ставим StoreRecoms.Latest{% endcomment %}
 {% assign recoLimitX2_2_1 = 4 %}{% comment %} Лимит в выдаче рекомендаций {% endcomment %}
 {% assign recoButtonTextX2_2_1 = '' %}{% comment %} Текст на СТА {% endcomment %}
@@ -575,12 +577,24 @@ div[class*="col-"] {
 <table class="intro outer" style="border-spacing: 0; border-collapse: collapse; width: 100%; margin: 0 auto; max-width: 600px; background-color: #ffffff;" width="100%" bgcolor="#ffffff">
   <tr>
     <td class="intro__wrap" align="center" style="padding: 0; line-height: normal; padding-top: 10px; padding-bottom: 10px; padding-right: 20px; padding-left: 20px;">
+      <p class="intro__title" style="margin: 0; font-size: 24px; line-height: 30px; font-weight: bold; color: #1d1d1d;">{{textTitle2_1}}</p>
       
+<div style="font-size:10px;line-height:10px;height:10px;">&nbsp;</div>
+
       <p class="intro__text" style="margin: 0; font-size: 20px; line-height: 28px; color: #1d1d1d;">{{textText2_1}}</p>
     </td>
   </tr>
 </table>
-
+<div>
+  <!--[if mso]>
+    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{textButtonLink2_1}}" target="_blank" style="height:47px;v-text-anchor:middle;width:218px;" arcsize="11%" stroke="f" fillcolor="#1d1d1d">
+      <w:anchorlock/>
+      <center style="color:#ffffff;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:16px;font-weight:normal;">{{textButtonText2_1}}</center>
+    </v:roundrect>
+  <![endif]-->
+  <a href="{{textButtonLink2_1}}" target="_blank" style="background-color:#1d1d1d;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:16px;line-height:47px;font-weight:normal;text-align:center;text-decoration:none;width:218px;-webkit-text-size-adjust:none;mso-hide:all;">{{textButtonText2_1}}</a>
+</div>
+          
           {% endif %}
           <!-- Module End: Интро -->
         
