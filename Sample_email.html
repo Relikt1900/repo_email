@@ -42,6 +42,8 @@
 {% assign textText2_1 = 'Акция по бесплатной фирменной установке действует в: Москве, Санкт-Петербурге, Екатеринбурге и Краснодаре.<br> Посмотрите фото реальных установок!' %}{% comment %} Сам текст {% endcomment %}
 {% assign textButtonLink2_1 = 'https://ampm-store.ru/information/installation/' %}{% comment %} Ссылка с СТА {% endcomment %}
 {% assign textButtonText2_1 = 'Фирменная установка' %}{% comment %} Текст на СТА {% endcomment %}
+{% assign textButtonLink2_2 = 'https://ampm-store.ru/information/installation/' %}{% comment %} Ссылка с СТА {% endcomment %}
+{% assign textButtonText2_2 = 'Фирменная установка' %}{% comment %} Текст на СТА {% endcomment %}
 {% comment %} Конец Блок с текстом 2 {% endcomment %}
 
 
@@ -621,6 +623,31 @@ div[class*="col-"] {
           <table class="outer" style="border-spacing: 0; border-collapse: collapse; width: 100%; margin: 0 auto; max-width: 600px; background-color: #ffffff;" width="100%" bgcolor="#ffffff"><tr><td style="padding: 0; font-size: 30px; line-height: 30px; height: 30px;" height="30">&nbsp;</td></tr></table>
           {% endif %}
           <!-- Module End: Отступ -->
+
+          <!-- Module: Кнопка 2. Блок 2 -->
+          {% if showText2_1 %}
+            <table class="cta outer" style="border-spacing: 0; border-collapse: collapse; width: 100%; margin: 0 auto; max-width: 600px; background-color: #ffffff;" width="100%" bgcolor="#ffffff">
+  <tr>
+    <td align="center" style="padding: 0; line-height: normal;">
+<div>
+  <!--[if mso]>
+    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="{{textButtonLink2_2}}" target="_blank" style="height:47px;v-text-anchor:middle;width:218px;" arcsize="11%" stroke="f" fillcolor="#1d1d1d">
+      <w:anchorlock/>
+      <center style="color:#ffffff;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:16px;font-weight:normal;">{{textButtonText2_2}}</center>
+    </v:roundrect>
+  <![endif]-->
+  <a href="{{textButtonLink2_2}}" target="_blank" style="background-color:#1d1d1d;border-radius:5px;color:#ffffff;display:inline-block;font-family:'Inter',Helvetica,Arial,sans-serif;font-size:16px;line-height:47px;font-weight:normal;text-align:center;text-decoration:none;width:218px;-webkit-text-size-adjust:none;mso-hide:all;">{{textButtonText2_2}}</a>
+</div>
+    </td>
+  </tr>
+</table>          
+          <!-- Module END: Кнопка 2. Блок 2 -->
+
+          <!-- Module: Отступ -->
+          {% if showText2_1 %}
+          <table class="outer" style="border-spacing: 0; border-collapse: collapse; width: 100%; margin: 0 auto; max-width: 600px; background-color: #ffffff;" width="100%" bgcolor="#ffffff"><tr><td style="padding: 0; font-size: 30px; line-height: 30px; height: 30px;" height="30">&nbsp;</td></tr></table>
+          {% endif %}
+          <!-- Module End: Отступ -->
         
           <!-- Module: Рекомендации -->
           {% if showRecoX2_2_1 %}
@@ -985,4 +1012,3 @@ div[class*="col-"] {
 
 
 {{ HTMLSource }}
-
