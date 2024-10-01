@@ -17,18 +17,18 @@
 {% assign showBanner1_1 = true %}{% comment %} Показывать баннер? true — показывать, false — не показывать {% endcomment %}
 {% assign bannerImgUrl1_1 = 'https://gallery.retailrocket.net/63970879474695b85ab9a763/aug-sep-2024-1000%d1%85525.jpg' %}{% comment %} Ссылка на картинку баннера {% endcomment %}
 {% assign bannerLink1_1 = 'https://ampm-store.ru/federal-promo/' %}{% comment %} Ссылка с баннера {% endcomment %}
-{% assign bannerAlt1_1 = 'Сантехника AM.PM со скидками до 50% на выделенный ассортимент!' %}{% comment %} Текст вместо баннера, который увидит подписчик, если у него не отображаются картинки {% endcomment %}
+{% assign bannerAlt1_1 = 'Скидки заканчиваются через 4 дня!!!' %}{% comment %} Текст вместо баннера, который увидит подписчик, если у него не отображаются картинки {% endcomment %}
 {% comment %} Конец Блок с баннером 1 {% endcomment %}
 
 {% comment %} Блок с текстом 1 {% endcomment %}
 {% assign showText1_1 = true %}{% comment %} Показывать текст? true — показывать, false — не показывать {% endcomment %}
-{% assign textTitle1_1 = 'Специальная скидка 10% <br>от официального магазина AM.PM <br>с 26 до 30 августа 2024 года' %}{% comment %} Заголовок текстового блока {% endcomment %}
-{% assign textText1_1 = 'на заказ от 30 000 рублей<br><br> Промокод: <b>August_26_30</b><br>Промокод суммируется со другими скидками.' %}{% comment %} Сам текст {% endcomment %}
+{% assign textTitle1_1 = 'Акция сентября заканчивается через 3 дня!' %}{% comment %} Заголовок текстового блока {% endcomment %}
+{% assign textText1_1 = 'Если вы запланировали покупку - успейте сэкономить. <br>С 1 октября цены изменятся.' %}{% comment %} Сам текст {% endcomment %}
 {% comment %} Конец Блок с текстом 1 {% endcomment %}
 
 {% comment %} Блок товарных рекомендаций два в ряд 1 {% endcomment %}
 {% assign showRecoX2_1_1 = true %}{% comment %} Показывать рекомендации? true — показывать, false — не показывать {% endcomment %}
-{% assign recoIdsX2_1_1 = '4238, 4043, 8164, 4522 ' %}{% comment %} Список id товаров {% endcomment %}
+{% assign recoIdsX2_1_1 = '4044, 17073, 2326, 4522 ' %}{% comment %} Список id товаров {% endcomment %}
 {% assign recoAlgoritmX2_1_1 = Products.recoIdsX2_1_1 %}{% comment %} Алгоритм StoreRecoms.Popular. Если нужно вручную выводить товары, то ставим Products.recoIdsX2_1_1 {% endcomment %}
 {% assign recoLimitX2_1_1 = 4 %}{% comment %} Лимит в выдаче рекомендаций {% endcomment %}
 {% assign recoButtonTextX2_1_1 = 'Смотреть еще' %}{% comment %} Текст на СТА {% endcomment %}
@@ -39,10 +39,10 @@
 {% comment %} Блок с текстом 2 {% endcomment %}
 {% assign showText2_1 = true %}{% comment %} Показывать текст? true — показывать, false — не показывать {% endcomment %}
 {% assign textTitle2_1 = 'Бесплатная фирменная установка от AM.PM!' %}{% comment %} Заголовок текстового блока {% endcomment %}
-{% assign textText2_1 = 'Акция по бесплатной фирменной установке действует в: Москве, Санкт-Петербурге, Екатеринбурге и Краснодаре.<br> Посмотрите фото реальных установок!' %}{% comment %} Сам текст {% endcomment %}
+{% assign textText2_1 = '- действует в Москве, Санкт-Петербурге, <br>Екатеринбурге и Краснодаре.<br>Посмотрите фото реальных установок!' %}{% comment %} Сам текст {% endcomment %}
 {% assign textButtonLink2_1 = 'https://ampm-store.ru/information/installation/' %}{% comment %} Ссылка с СТА {% endcomment %}
 {% assign textButtonText2_1 = 'Фирменная установка' %}{% comment %} Текст на СТА {% endcomment %}
-{% assign showButtonText2_2 = true %}{% comment %} Показывать вторую кнопку? true — показывать, false — не показывать {% endcomment %}
+{% assign showButtonText2_2 = false %}{% comment %} Показывать вторую кнопку? true — показывать, false — не показывать {% endcomment %}
 {% assign textButtonLink2_2 = 'https://ampm-store.ru/information/installation/' %}{% comment %} Ссылка с СТА {% endcomment %}
 {% assign textButtonText2_2 = 'Фирменная установка' %}{% comment %} Текст на СТА {% endcomment %}
 {% comment %} Конец Блок с текстом 2 {% endcomment %}
@@ -50,7 +50,7 @@
 
 {% comment %} Блок товарных рекомендаций два в ряд 2 {% endcomment %}
 {% assign showRecoX2_2_1 = true %}{% comment %} Показывать рекомендации? true — показывать, false — не показывать {% endcomment %}
-{% assign recoIdsX2_2_1 = '16559, 2259, 4269, 2261' %}{% comment %} Список id товаров {% endcomment %}
+{% assign recoIdsX2_2_1 = '16559, 2150, 4269, 4238' %}{% comment %} Список id товаров {% endcomment %}
 {% assign recoAlgoritmX2_2_1 = Products.recoIdsX2_2_1 %}{% comment %} Products.recoIdsX2_2_1  Алгоритм. Если нужно автоматически выводить товары, то ставим StoreRecoms.Latest{% endcomment %}
 {% assign recoLimitX2_2_1 = 4 %}{% comment %} Лимит в выдаче рекомендаций {% endcomment %}
 {% assign recoButtonTextX2_2_1 = '' %}{% comment %} Текст на СТА {% endcomment %}
@@ -489,7 +489,7 @@ div[class*="col-"] {
                         <tr>
                           <td class="product2X__title" align="left" style="padding: 0; line-height: normal; padding-top: 12px; vertical-align: top; height: 60px;" height="60" valign="top">
                             <div style="height: 60px;">
-                              <a href="{{item.Url}}" target="_blank" style="font-size: 16px; color: #1d1d1d; text-decoration: none;">{{item.Name | truncate: 65}}</a>
+                              <a href="{{item.Url}}" target="_blank" style="font-size: 16px; color: #1d1d1d; text-decoration: none;">{{item.Name | truncate: 60}}</a>
                             </div>
                           </td>
                         </tr>
